@@ -96,8 +96,8 @@ var sl_screen = {
 		var initialSetup = 1000; //relative delay before audio plays
 		var pauseTime01 = pauses[t+0]; //what is the pause time?
 		var pauseTime02 = pauses[t+1]; //what is the second pause time?
-		var resumeTime01 = pauseTime01+2000; //resume after 2000ms
-		var resumeTime02 = pauseTime02+2000; //resume after 2000ms
+		var resumeTime01 = pauseTime01+4000; //resume after 2000ms
+		var resumeTime02 = pauseTime02+4000; //resume after 2000ms
 
 		setTimeout(function(){
 			var audio = new Audio(SLSTREAM[idx]);
@@ -141,7 +141,7 @@ var sl_screen = {
 
 			return '<div><audio id="slsound" autoplay="false"></audio></div>';
 	},
-	trial_duration: 180200,
+	trial_duration: 184000,
 	choices: jsPsych.NO_KEYS,
 	on_finish: function(data){
 		var timeoutDATA = {
