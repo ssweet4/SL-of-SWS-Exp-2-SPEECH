@@ -141,7 +141,7 @@ var sl_screen = {
 
 			return '<div><audio id="slsound" autoplay="false"></audio></div>';
 	},
-	trial_duration: 185000,
+	trial_duration: 180200,
 	choices: jsPsych.NO_KEYS,
 	on_finish: function(data){
 		var timeoutDATA = {
