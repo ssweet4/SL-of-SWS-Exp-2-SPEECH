@@ -166,7 +166,8 @@ var Completion_interim = {
 //Push everything to the timeline
 var COMPLETION_TRIALS_FINAL = {
 	timeline: [Fixation, PATTERN_present, Option1_present, Option2_present, Option3_present, COMPLETION_choice, Completion_interim],
-	timeline_variables: COMPLETION_VAR
+	timeline_variables: COMPLETION_VAR,
+	randomize_order: true
 }
 
 
