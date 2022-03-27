@@ -63,7 +63,7 @@ var COMPLETION_Intro = {
 	type: 'html-button-response',
 	stimulus: '<p>You will now listen to sound sequences made up of 2-3 sounds.</p>'+
 			  '<p>Each sequence will be missing one sound. A beep will play in the place of this missing sound.</p>'+
-			  '<p>On each trial, you will listen to one of these sound sequences. You will then listen to a number of <u>TARGET SOUNDS</u>. Each <u>TARGET SOUND</u> will be labeled with a number (for example, 1) on the screen as they play. Your task is to pick which <u>TARGET SOUND</u> best completes the sound sequence.</p>'+
+			  '<p>On each trial, you will listen to one of these sound sequences. You will then listen to 3 <u>TARGET SOUNDS</u>. Each <u>TARGET SOUND</u> will be labeled with a number (for example, 1) on the screen as they play. Your task is to pick which <u>TARGET SOUND</u> best completes the sound sequence.</p>'+
 			  '<p>To pick the <u>TARGET SOUND</u>, you will press the <b>button with the number that corresponds to that <u>TARGET SOUND</u>.</b></p>'+
 				'<p>There will be a total of 10 trials.</p>'+
 				'<p>When you are ready to begin, press CONTINUE.</p>',
@@ -146,7 +146,7 @@ var COMPLETION_choice = {
 	},
 	on_finish: function(data) {
 		var button_pressed = data.button_pressed;
-		if (button_pressed == data.correct) {
+		if (button_pressed == data.correctanswer) {
 			data.correct = 1;
 		} else {
 			data.correct = 0;
