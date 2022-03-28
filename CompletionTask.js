@@ -21,36 +21,36 @@ e.g., var completion_sounds = return_completion_sounds();
 
 
 var COMPLETION_VAR1 = [
-{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/le_SWS.wav', option2: 'sounds/syllables/ne_SWS.wav', option3: 'sounds/syllables/te_SWS.wav',correct:0, image: 'images/sqms.png', tp_type:'third', length: 'triplet'}, ////
-{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/bi_SWS.wav', option2: 'sounds/syllables/te_SWS.wav', option3: 'sounds/syllables/do_SWS.wav',correct:1, image: 'images/sqms.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/na_SWS.wav', option2: 'sounds/syllables/gi_SWS.wav', option3: 'sounds/syllables/bi_SWS.wav',correct:2, image: 'images/ssqm.png', tp_type:'third', length: 'triplet'},
-{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/mu_SWS.wav', option2: 'sounds/syllables/lo_SWS.wav', option3: 'sounds/syllables/gu_SWS.wav',correct:0, image: 'images/qmss.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/da_SWS.wav', option2: 'sounds/syllables/lo_SWS.wav', option3: 'sounds/syllables/ba_SWS.wav',correct:1, image: 'images/qms.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/tu_SWS.wav', option2: 'sounds/syllables/ki_SWS.wav', option3: 'sounds/syllables/da_SWS.wav',correct:2, image: 'images/sqm.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/ki_SWS.wav', option2: 'sounds/syllables/mu_SWS.wav', option3: 'sounds/syllables/le_SWS.wav',correct:0, image: 'images/sqm.png', tp_type:'third', length: 'pair'},
-{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/mo_SWS.wav', option2: 'sounds/syllables/gu_SWS.wav', option3: 'sounds/syllables/ku_SWS.wav',correct:1, image: 'images/qms.png', tp_type:'third', length: 'pair'}
+{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/le_SWS.wav', option2: 'sounds/syllables/ne_SWS.wav', option3: 'sounds/syllables/te_SWS.wav',correct:0, image: 'images/sqms.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyfive'}, ////
+{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/bi_SWS.wav', option2: 'sounds/syllables/te_SWS.wav', option3: 'sounds/syllables/do_SWS.wav',correct:1, image: 'images/sqms.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtysix'},
+{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/na_SWS.wav', option2: 'sounds/syllables/gi_SWS.wav', option3: 'sounds/syllables/bi_SWS.wav',correct:2, image: 'images/ssqm.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyseven'},
+{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/mu_SWS.wav', option2: 'sounds/syllables/lo_SWS.wav', option3: 'sounds/syllables/gu_SWS.wav',correct:0, image: 'images/qmss.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtyeight'},
+{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/da_SWS.wav', option2: 'sounds/syllables/lo_SWS.wav', option3: 'sounds/syllables/ba_SWS.wav',correct:1, image: 'images/qms.png', tp_type:'one', length: 'pair', trialnumber: 'thirtynine'},
+{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/tu_SWS.wav', option2: 'sounds/syllables/ki_SWS.wav', option3: 'sounds/syllables/da_SWS.wav',correct:2, image: 'images/sqm.png', tp_type:'one', length: 'pair', trialnumber: 'forty'},
+{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/ki_SWS.wav', option2: 'sounds/syllables/mu_SWS.wav', option3: 'sounds/syllables/le_SWS.wav',correct:0, image: 'images/sqm.png', tp_type:'third', length: 'pair', trialnumber: 'fortyone'},
+{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/mo_SWS.wav', option2: 'sounds/syllables/gu_SWS.wav', option3: 'sounds/syllables/ku_SWS.wav',correct:1, image: 'images/qms.png', tp_type:'third', length: 'pair', trialnumber: 'fortytwo'}
 ];
 
 var COMPLETION_VAR2 = [
-{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/te_SWS.wav', option2: 'sounds/syllables/le_SWS.wav', option3: 'sounds/syllables/ne_SWS.wav',correct:1, image: 'images/sqms.png', tp_type:'third', length: 'triplet'},
-{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/do_SWS.wav', option2: 'sounds/syllables/bi_SWS.wav', option3: 'sounds/syllables/te_SWS.wav',correct:2, image: 'images/sqms.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/bi_SWS.wav', option2: 'sounds/syllables/na_SWS.wav', option3: 'sounds/syllables/gi_SWS.wav',correct:0, image: 'images/ssqm.png', tp_type:'third', length: 'triplet'},
-{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/gu_SWS.wav', option2: 'sounds/syllables/mu_SWS.wav', option3: 'sounds/syllables/lo_SWS.wav',correct:1, image: 'images/qmss.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/ba_SWS.wav', option2: 'sounds/syllables/da_SWS.wav', option3: 'sounds/syllables/lo_SWS.wav',correct:2, image: 'images/qms.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/da_SWS.wav', option2: 'sounds/syllables/tu_SWS.wav', option3: 'sounds/syllables/ki_SWS.wav',correct:0, image: 'images/sqm.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/le_SWS.wav', option2: 'sounds/syllables/ki_SWS.wav', option3: 'sounds/syllables/mu_SWS.wav',correct:1, image: 'images/sqm.png', tp_type:'third', length: 'pair'},
-{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/ku_SWS.wav', option2: 'sounds/syllables/mo_SWS.wav', option3: 'sounds/syllables/gu_SWS.wav',correct:2, image: 'images/qms.png', tp_type:'third', length: 'pair'}
+{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/te_SWS.wav', option2: 'sounds/syllables/le_SWS.wav', option3: 'sounds/syllables/ne_SWS.wav',correct:1, image: 'images/sqms.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyfive'},
+{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/do_SWS.wav', option2: 'sounds/syllables/bi_SWS.wav', option3: 'sounds/syllables/te_SWS.wav',correct:2, image: 'images/sqms.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtysix'},
+{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/bi_SWS.wav', option2: 'sounds/syllables/na_SWS.wav', option3: 'sounds/syllables/gi_SWS.wav',correct:0, image: 'images/ssqm.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyseven'},
+{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/gu_SWS.wav', option2: 'sounds/syllables/mu_SWS.wav', option3: 'sounds/syllables/lo_SWS.wav',correct:1, image: 'images/qmss.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtyieght'},
+{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/ba_SWS.wav', option2: 'sounds/syllables/da_SWS.wav', option3: 'sounds/syllables/lo_SWS.wav',correct:2, image: 'images/qms.png', tp_type:'one', length: 'pair', trialnumber: 'thirtynine'},
+{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/da_SWS.wav', option2: 'sounds/syllables/tu_SWS.wav', option3: 'sounds/syllables/ki_SWS.wav',correct:0, image: 'images/sqm.png', tp_type:'one', length: 'pair', trialnumber: 'forty'},
+{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/le_SWS.wav', option2: 'sounds/syllables/ki_SWS.wav', option3: 'sounds/syllables/mu_SWS.wav',correct:1, image: 'images/sqm.png', tp_type:'third', length: 'pair', trialnumber: 'fortyone'},
+{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/ku_SWS.wav', option2: 'sounds/syllables/mo_SWS.wav', option3: 'sounds/syllables/gu_SWS.wav',correct:2, image: 'images/qms.png', tp_type:'third', length: 'pair', trialnumber: 'fortytwo'}
 ];
 
 var COMPLETION_VAR3 = [
-{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/ne_SWS.wav', option2: 'sounds/syllables/te_SWS.wav', option3: 'sounds/syllables/le_SWS.wav',correct:2, image: 'images/sqms.png', tp_type:'third', length: 'triplet'},
-{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/te_SWS.wav', option2: 'sounds/syllables/do_SWS.wav', option3: 'sounds/syllables/bi_SWS.wav',correct:0, image: 'images/sqms.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/gi_SWS.wav', option2: 'sounds/syllables/bi_SWS.wav', option3: 'sounds/syllables/na_SWS.wav',correct:1, image: 'images/ssqm.png', tp_type:'third', length: 'triplet'},
-{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/lo_SWS.wav', option2: 'sounds/syllables/gu_SWS.wav', option3: 'sounds/syllables/mu_SWS.wav',correct:2, image: 'images/qmss.png', tp_type:'one', length: 'triplet'},
-{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/lo_SWS.wav', option2: 'sounds/syllables/ba_SWS.wav', option3: 'sounds/syllables/da_SWS.wav',correct:0, image: 'images/qms.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/ki_SWS.wav', option2: 'sounds/syllables/da_SWS.wav', option3: 'sounds/syllables/tu_SWS.wav',correct:1, image: 'images/sqm.png', tp_type:'one', length: 'pair'},
-{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/mu_SWS.wav', option2: 'sounds/syllables/le_SWS.wav', option3: 'sounds/syllables/ki_SWS.wav',correct:2, image: 'images/sqm.png', tp_type:'third', length: 'pair'},
-{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/gu_SWS.wav', option2: 'sounds/syllables/ku_SWS.wav', option3: 'sounds/syllables/mo_SWS.wav',correct:0, image: 'images/qms.png', tp_type:'third', length: 'pair'}
+{pattern: 'sounds/test/kiqmgu.wav', option1: 'sounds/syllables/ne_SWS.wav', option2: 'sounds/syllables/te_SWS.wav', option3: 'sounds/syllables/le_SWS.wav',correct:2, image: 'images/sqms.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyfive'},
+{pattern: 'sounds/test/baqmku.wav', option1: 'sounds/syllables/te_SWS.wav', option2: 'sounds/syllables/do_SWS.wav', option3: 'sounds/syllables/bi_SWS.wav',correct:0, image: 'images/sqms.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtysix'},
+{pattern: 'sounds/test/lekiqm.wav', option1: 'sounds/syllables/gi_SWS.wav', option2: 'sounds/syllables/bi_SWS.wav', option3: 'sounds/syllables/na_SWS.wav',correct:1, image: 'images/ssqm.png', tp_type:'third', length: 'triplet', trialnumber: 'thirtyseven'},
+{pattern: 'sounds/test/qmnatu.wav', option1: 'sounds/syllables/lo_SWS.wav', option2: 'sounds/syllables/gu_SWS.wav', option3: 'sounds/syllables/mu_SWS.wav',correct:2, image: 'images/qmss.png', tp_type:'one', length: 'triplet', trialnumber: 'thirtyeight'},
+{pattern: 'sounds/test/qmdo.wav', option1: 'sounds/syllables/lo_SWS.wav', option2: 'sounds/syllables/ba_SWS.wav', option3: 'sounds/syllables/da_SWS.wav',correct:0, image: 'images/qms.png', tp_type:'one', length: 'pair', trialnumber: 'thirtynine'},
+{pattern: 'sounds/test/moqm.wav', option1: 'sounds/syllables/ki_SWS.wav', option2: 'sounds/syllables/da_SWS.wav', option3: 'sounds/syllables/tu_SWS.wav',correct:1, image: 'images/sqm.png', tp_type:'one', length: 'pair', trialnumber: 'forty'},
+{pattern: 'sounds/test/guqm.wav', option1: 'sounds/syllables/mu_SWS.wav', option2: 'sounds/syllables/le_SWS.wav', option3: 'sounds/syllables/ki_SWS.wav',correct:2, image: 'images/sqm.png', tp_type:'third', length: 'pair', trialnumber: 'fortyone'},
+{pattern: 'sounds/test/qmbi.wav', option1: 'sounds/syllables/gu_SWS.wav', option2: 'sounds/syllables/ku_SWS.wav', option3: 'sounds/syllables/mo_SWS.wav',correct:0, image: 'images/qms.png', tp_type:'third', length: 'pair', trialnumber: 'fortytwo'}
 ];
 
 //potential counterbalance code
@@ -142,6 +142,7 @@ var COMPLETION_choice = {
 		option3: jsPsych.timelineVariable('option3'),
 		correctanswer: jsPsych.timelineVariable('correct'),
 		length: jsPsych.timelineVariable('length'),
+		trial: jsPsych.timelineVariable('trialnumber'),
 		transitionalpr: jsPsych.timelineVariable('tp_type')
 	},
 	on_finish: function(data) {

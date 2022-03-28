@@ -20,53 +20,53 @@ var twoafc_count = 0;
 var fourafc_count = 0;
 
 var twoAFC_array1 = [
-{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/leneba.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/lekibi.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/bigute.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/gubile.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/temumo.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/bateku.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/modane.wav', word2: 'sounds/test/lonaku.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/lodogi.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/dokibi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/lekibi.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/lebabi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/gubile.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/logule.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/bateku.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/modane.wav', word2: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/lodogi.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/legu.wav', word2: 'sounds/test/kigi.wav', correct:0, tptype:'third', length:'pair'},
-{word1: 'sounds/test/lebi.wav', word2: 'sounds/test/kibi.wav', correct:1, tptype:'third', length:'pair'},
-{word1: 'sounds/test/guki.wav', word2: 'sounds/test/nagu.wav', correct:0, tptype:'third', length:'pair'},
-{word1: 'sounds/test/nele.wav', word2: 'sounds/test/bile.wav', correct:1, tptype:'third', length:'pair'},
-{word1: 'sounds/test/natu.wav', word2: 'sounds/test/mumo.wav', correct:0, tptype:'one', length:'pair'},
-{word1: 'sounds/test/gumo.wav', word2: 'sounds/test/bate.wav', correct:1, tptype:'one', length:'pair'}
+{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/leneba.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'one'},
+{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/lekibi.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'two'},
+{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/bigute.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'three'},
+{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/gubile.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'four'},
+{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/temumo.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'five'},
+{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/bateku.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'six'},
+{word1: 'sounds/test/modane.wav', word2: 'sounds/test/lonaku.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'seven'},
+{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/lodogi.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'eight'},
+{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/dokibi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'nine'},
+{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/lekibi.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'ten'},
+{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/lebabi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'eleven'},
+{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/gubile.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'twelve'},
+{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/logule.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'thirteen'},
+{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/bateku.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'fourteen'},
+{word1: 'sounds/test/modane.wav', word2: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'fifteen'},
+{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/lodogi.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'sixteen'},
+{word1: 'sounds/test/legu.wav', word2: 'sounds/test/kigi.wav', correct:0, tptype:'third', length:'pair', trialnumber: 'seventeen'},
+{word1: 'sounds/test/lebi.wav', word2: 'sounds/test/kibi.wav', correct:1, tptype:'third', length:'pair', trialnumber: 'eighteen'},
+{word1: 'sounds/test/guki.wav', word2: 'sounds/test/nagu.wav', correct:0, tptype:'third', length:'pair', trialnumber: 'nineteen'},
+{word1: 'sounds/test/nele.wav', word2: 'sounds/test/bile.wav', correct:1, tptype:'third', length:'pair', trialnumber: 'twenty'},
+{word1: 'sounds/test/natu.wav', word2: 'sounds/test/mumo.wav', correct:0, tptype:'one', length:'pair', trialnumber: 'twentyone'},
+{word1: 'sounds/test/gumo.wav', word2: 'sounds/test/bate.wav', correct:1, tptype:'one', length:'pair', trialnumber: 'twentytwo'}
 ];
 
 var twoAFC_array2 = [
-{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/kilegu.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/biguki.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/tukigu.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/munatu.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/gimona.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/modane.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/gukido.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/kilegu.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/lonaku.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/biguki.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/gimona.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/logule.wav', word2: 'sounds/test/munatu.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/mudane.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/modane.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/gituku.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/kigi.wav', word2: 'sounds/test/legu.wav', correct:1, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/kibi.wav', word2: 'sounds/test/lebi.wav', correct:0, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/nagu.wav', word2: 'sounds/test/guki.wav', correct:1, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/bile.wav', word2: 'sounds/test/nele.wav', correct:0, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/mumo.wav', word2: 'sounds/test/natu.wav', correct:1, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/bate.wav', word2: 'sounds/test/gumo.wav', correct:0, tptype:'one', length: 'pair'}
+{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/kilegu.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'one'},
+{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'two'},
+{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/biguki.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'three'},
+{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/tukigu.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'four'},
+{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/munatu.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'five'},
+{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/gimona.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'six'},
+{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/modane.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'seven'},
+{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/gukido.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'eight'},
+{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/kilegu.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'nine'},
+{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/lonaku.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'ten'},
+{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/biguki.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'eleven'},
+{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/gimona.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'twelve'},
+{word1: 'sounds/test/logule.wav', word2: 'sounds/test/munatu.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'thirteen'},
+{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/mudane.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'fourteen'},
+{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/modane.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'fifteen'},
+{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/gituku.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'sixteen'},
+{word1: 'sounds/test/kigi.wav', word2: 'sounds/test/legu.wav', correct:1, tptype:'third', length: 'pair', trialnumber: 'seventeen'},
+{word1: 'sounds/test/kibi.wav', word2: 'sounds/test/lebi.wav', correct:0, tptype:'third', length: 'pair', trialnumber: 'eighteen'},
+{word1: 'sounds/test/nagu.wav', word2: 'sounds/test/guki.wav', correct:1, tptype:'third', length: 'pair', trialnumber: 'nineteen'},
+{word1: 'sounds/test/bile.wav', word2: 'sounds/test/nele.wav', correct:0, tptype:'third', length: 'pair', trialnumber: 'twenty'},
+{word1: 'sounds/test/mumo.wav', word2: 'sounds/test/natu.wav', correct:1, tptype:'one', length: 'pair', trialnumber: 'twentyone'},
+{word1: 'sounds/test/bate.wav', word2: 'sounds/test/gumo.wav', correct:0, tptype:'one', length: 'pair', trialnumber: 'twentytwo'}
 ];
 
 //potential counterbalance code
@@ -76,67 +76,67 @@ var twoAFC_array = jsPsych.randomization.shuffle([twoAFC_array1, twoAFC_array2])
 
 
 var fourAFC_array1 = [
-{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/temumo.wav', word3: 'sounds/test/lebabi.wav', word4: 'sounds/test/logule.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/gubile.wav', word3: 'sounds/test/mudane.wav', word4: 'sounds/test/dokibi.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/lebabi.wav', word3: 'sounds/test/biguki.wav', word4: 'sounds/test/gituku.wav', correct:2, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/gimona.wav', word3: 'sounds/test/kilebi.wav', word4: 'sounds/test/lekibi.wav', correct:3, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/leneba.wav', word3: 'sounds/test/lonaku.wav', word4: 'sounds/test/gituku.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/bateku.wav', word3: 'sounds/test/bigute.wav', word4: 'sounds/test/kilebi.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/logule.wav', word2: 'sounds/test/tukigu.wav', word3: 'sounds/test/modane.wav', word4: 'sounds/test/gukido.wav', correct:2, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/tukigu.wav', word3: 'sounds/test/mudane.wav', word4: 'sounds/test/lodogi.wav', correct:3, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/dane.wav', word2: 'sounds/test/dado.wav', word3: 'sounds/test/nalo.wav', word4: 'sounds/test/tebi.wav', correct:0, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/baku.wav', word2: 'sounds/test/lodo.wav', word3: 'sounds/test/kiba.wav', word4: 'sounds/test/dotu.wav', correct:1, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/gulo.wav', word2: 'sounds/test/nemu.wav', word3: 'sounds/test/kile.wav', word4: 'sounds/test/tuki.wav', correct:2, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/tele.wav', word2: 'sounds/test/gida.wav', word3: 'sounds/test/kubi.wav', word4: 'sounds/test/bigu.wav', correct:3, tptype:'third', length: 'pair'}
-];
+{word1: 'sounds/test/kilegu.wav', word2: 'sounds/test/temumo.wav', word3: 'sounds/test/lebabi.wav', word4: 'sounds/test/logule.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'twentythree'},
+{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/gubile.wav', word3: 'sounds/test/mudane.wav', word4: 'sounds/test/dokibi.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'twentyfour'},
+{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/lebabi.wav', word3: 'sounds/test/biguki.wav', word4: 'sounds/test/gituku.wav', correct:2, tptype:'third', length: 'triplet', trialnumber: 'twentyfive'},
+{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/gimona.wav', word3: 'sounds/test/kilebi.wav', word4: 'sounds/test/lekibi.wav', correct:3, tptype:'third', length: 'triplet', trialnumber: 'twentysix'},
+{word1: 'sounds/test/munatu.wav', word2: 'sounds/test/leneba.wav', word3: 'sounds/test/lonaku.wav', word4: 'sounds/test/gituku.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'twentyseven'},
+{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/bateku.wav', word3: 'sounds/test/bigute.wav', word4: 'sounds/test/kilebi.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'twentyeight'},
+{word1: 'sounds/test/logule.wav', word2: 'sounds/test/tukigu.wav', word3: 'sounds/test/modane.wav', word4: 'sounds/test/gukido.wav', correct:2, tptype:'one', length: 'triplet', trialnumber: 'twentynine'},
+{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/tukigu.wav', word3: 'sounds/test/mudane.wav', word4: 'sounds/test/lodogi.wav', correct:3, tptype:'one', length: 'triplet', trialnumber: 'thirty'},
+{word1: 'sounds/test/dane.wav', word2: 'sounds/test/dado.wav', word3: 'sounds/test/nalo.wav', word4: 'sounds/test/tebi.wav', correct:0, tptype:'one', length: 'pair', trialnumber: 'thirtyone'},
+{word1: 'sounds/test/baku.wav', word2: 'sounds/test/lodo.wav', word3: 'sounds/test/kiba.wav', word4: 'sounds/test/dotu.wav', correct:1, tptype:'one', length: 'pair', trialnumber: 'thirtytwo'},
+{word1: 'sounds/test/gulo.wav', word2: 'sounds/test/nemu.wav', word3: 'sounds/test/kile.wav', word4: 'sounds/test/tuki.wav', correct:2, tptype:'third', length: 'pair', trialnumber: 'thirtythree'},
+{word1: 'sounds/test/tele.wav', word2: 'sounds/test/gida.wav', word3: 'sounds/test/kubi.wav', word4: 'sounds/test/bigu.wav', correct:3, tptype:'third', length: 'pair', trialnumber: 'thirtyfour'}
+
 
 
 var fourAFC_array2 = [
-{word1: 'sounds/test/logule.wav', word2: 'sounds/test/kilegu.wav', word3: 'sounds/test/temumo.wav', word4: 'sounds/test/lebabi.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/gukido.wav', word3: 'sounds/test/gubile.wav', word4: 'sounds/test/mudane.wav', correct:2, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/leneba.wav', word3: 'sounds/test/lebabi.wav', word4: 'sounds/test/biguki.wav', correct:3, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/temumo.wav', word3: 'sounds/test/gimona.wav', word4: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/munatu.wav', word3: 'sounds/test/leneba.wav', word4: 'sounds/test/lonaku.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/dokibi.wav', word3: 'sounds/test/bateku.wav', word4: 'sounds/test/bigute.wav', correct:2, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/logule.wav', word3: 'sounds/test/tukigu.wav', word4: 'sounds/test/modane.wav', correct:3, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/bigute.wav', word3: 'sounds/test/tukigu.wav', word4: 'sounds/test/mudane.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/tebi.wav', word2: 'sounds/test/dane.wav', word3: 'sounds/test/dado.wav', word4: 'sounds/test/nalo.wav', correct:1, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/dotu.wav', word2: 'sounds/test/baku.wav', word3: 'sounds/test/lodo.wav', word4: 'sounds/test/kiba.wav', correct:2, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/tuki.wav', word2: 'sounds/test/gulo.wav', word3: 'sounds/test/nemu.wav', word4: 'sounds/test/kile.wav', correct:3, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/bigu.wav', word2: 'sounds/test/tele.wav', word3: 'sounds/test/gida.wav', word4: 'sounds/test/kubi.wav', correct:0, tptype:'third', length: 'pair'}
+{word1: 'sounds/test/logule.wav', word2: 'sounds/test/kilegu.wav', word3: 'sounds/test/temumo.wav', word4: 'sounds/test/lebabi.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'twentythree'},
+{word1: 'sounds/test/dokibi.wav', word2: 'sounds/test/gukido.wav', word3: 'sounds/test/gubile.wav', word4: 'sounds/test/mudane.wav', correct:2, tptype:'third', length: 'triplet', trialnumber: 'twentyfour'},
+{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/leneba.wav', word3: 'sounds/test/lebabi.wav', word4: 'sounds/test/biguki.wav', correct:3, tptype:'third', length: 'triplet', trialnumber: 'twentyfive'},
+{word1: 'sounds/test/lekibi.wav', word2: 'sounds/test/temumo.wav', word3: 'sounds/test/gimona.wav', word4: 'sounds/test/kilebi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'twentysix'},
+{word1: 'sounds/test/gituku.wav', word2: 'sounds/test/munatu.wav', word3: 'sounds/test/leneba.wav', word4: 'sounds/test/lonaku.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'twentyseven'},
+{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/dokibi.wav', word3: 'sounds/test/bateku.wav', word4: 'sounds/test/bigute.wav', correct:2, tptype:'one', length: 'triplet', trialnumber: 'twentyeight'},
+{word1: 'sounds/test/gukido.wav', word2: 'sounds/test/logule.wav', word3: 'sounds/test/tukigu.wav', word4: 'sounds/test/modane.wav', correct:3, tptype:'one', length: 'triplet', trialnumber: 'twentynine'},
+{word1: 'sounds/test/lodogi.wav', word2: 'sounds/test/bigute.wav', word3: 'sounds/test/tukigu.wav', word4: 'sounds/test/mudane.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'thirty'},
+{word1: 'sounds/test/tebi.wav', word2: 'sounds/test/dane.wav', word3: 'sounds/test/dado.wav', word4: 'sounds/test/nalo.wav', correct:1, tptype:'one', length: 'pair', trialnumber: 'thirtyone'},
+{word1: 'sounds/test/dotu.wav', word2: 'sounds/test/baku.wav', word3: 'sounds/test/lodo.wav', word4: 'sounds/test/kiba.wav', correct:2, tptype:'one', length: 'pair', trialnumber: 'thirtytwo'},
+{word1: 'sounds/test/tuki.wav', word2: 'sounds/test/gulo.wav', word3: 'sounds/test/nemu.wav', word4: 'sounds/test/kile.wav', correct:3, tptype:'third', length: 'pair', trialnumber: 'thirtythree'},
+{word1: 'sounds/test/bigu.wav', word2: 'sounds/test/tele.wav', word3: 'sounds/test/gida.wav', word4: 'sounds/test/kubi.wav', correct:0, tptype:'third', length: 'pair', trialnumber: 'thirtyfour'}
 ];
 
 
 
 var fourAFC_array3 = [
-{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/logule.wav', word3: 'sounds/test/kilegu.wav', word4: 'sounds/test/temumo.wav', correct:2, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/dokibi.wav', word3: 'sounds/test/gukido.wav', word4: 'sounds/test/gubile.wav', correct:3, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/gituku.wav', word3: 'sounds/test/leneba.wav', word4: 'sounds/test/lebabi.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/lekibi.wav', word3: 'sounds/test/temumo.wav', word4: 'sounds/test/gimona.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/gituku.wav', word3: 'sounds/test/munatu.wav', word4: 'sounds/test/leneba.wav', correct:2, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/kilebi.wav', word3: 'sounds/test/dokibi.wav', word4: 'sounds/test/bateku.wav', correct:3, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/modane.wav', word2: 'sounds/test/gukido.wav', word3: 'sounds/test/logule.wav', word4: 'sounds/test/tukigu.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/lodogi.wav', word3: 'sounds/test/bigute.wav', word4: 'sounds/test/tukigu.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/nalo.wav', word2: 'sounds/test/tebi.wav', word3: 'sounds/test/dane.wav', word4: 'sounds/test/dado.wav', correct:2, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/kiba.wav', word2: 'sounds/test/dotu.wav', word3: 'sounds/test/baku.wav', word4: 'sounds/test/lodo.wav', correct:3, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/kile.wav', word2: 'sounds/test/tuki.wav', word3: 'sounds/test/gulo.wav', word4: 'sounds/test/nemu.wav', correct:0, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/kubi.wav', word2: 'sounds/test/bigu.wav', word3: 'sounds/test/tele.wav', word4: 'sounds/test/gida.wav', correct:1, tptype:'third', length: 'pair'}
+{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/logule.wav', word3: 'sounds/test/kilegu.wav', word4: 'sounds/test/temumo.wav', correct:2, tptype:'third', length: 'triplet', trialnumber: 'twentythree'},
+{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/dokibi.wav', word3: 'sounds/test/gukido.wav', word4: 'sounds/test/gubile.wav', correct:3, tptype:'third', length: 'triplet', trialnumber: 'twentyfour'},
+{word1: 'sounds/test/biguki.wav', word2: 'sounds/test/gituku.wav', word3: 'sounds/test/leneba.wav', word4: 'sounds/test/lebabi.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'twentyfive'},
+{word1: 'sounds/test/kilebi.wav', word2: 'sounds/test/lekibi.wav', word3: 'sounds/test/temumo.wav', word4: 'sounds/test/gimona.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'twentysix'},
+{word1: 'sounds/test/lonaku.wav', word2: 'sounds/test/gituku.wav', word3: 'sounds/test/munatu.wav', word4: 'sounds/test/leneba.wav', correct:2, tptype:'one', length: 'triplet', trialnumber: 'twentyseven'},
+{word1: 'sounds/test/bigute.wav', word2: 'sounds/test/kilebi.wav', word3: 'sounds/test/dokibi.wav', word4: 'sounds/test/bateku.wav', correct:3, tptype:'one', length: 'triplet', trialnumber: 'twentyeight'},
+{word1: 'sounds/test/modane.wav', word2: 'sounds/test/gukido.wav', word3: 'sounds/test/logule.wav', word4: 'sounds/test/tukigu.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'twentynine'},
+{word1: 'sounds/test/mudane.wav', word2: 'sounds/test/lodogi.wav', word3: 'sounds/test/bigute.wav', word4: 'sounds/test/tukigu.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'thirty'},
+{word1: 'sounds/test/nalo.wav', word2: 'sounds/test/tebi.wav', word3: 'sounds/test/dane.wav', word4: 'sounds/test/dado.wav', correct:2, tptype:'one', length: 'pair', trialnumber: 'thirtyone'},
+{word1: 'sounds/test/kiba.wav', word2: 'sounds/test/dotu.wav', word3: 'sounds/test/baku.wav', word4: 'sounds/test/lodo.wav', correct:3, tptype:'one', length: 'pair', trialnumber: 'thirtytwo'},
+{word1: 'sounds/test/kile.wav', word2: 'sounds/test/tuki.wav', word3: 'sounds/test/gulo.wav', word4: 'sounds/test/nemu.wav', correct:0, tptype:'third', length: 'pair', trialnumber: 'thirtythree'},
+{word1: 'sounds/test/kubi.wav', word2: 'sounds/test/bigu.wav', word3: 'sounds/test/tele.wav', word4: 'sounds/test/gida.wav', correct:1, tptype:'third', length: 'pair', trialnumber: 'thirtyfour'}
 ];
 
 
 var fourAFC_array4 = [
-{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/lebabi.wav', word3: 'sounds/test/logule.wav', word4: 'sounds/test/kilegu.wav', correct:3, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/mudane.wav', word3: 'sounds/test/dokibi.wav', word4: 'sounds/test/gukido.wav', correct:0, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/biguki.wav', word3: 'sounds/test/gituku.wav', word4: 'sounds/test/leneba.wav', correct:1, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/kilebi.wav', word3: 'sounds/test/lekibi.wav', word4: 'sounds/test/temumo.wav', correct:2, tptype:'third', length: 'triplet'},
-{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/lonaku.wav', word3: 'sounds/test/gituku.wav', word4: 'sounds/test/munatu.wav', correct:3, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/bigute.wav', word3: 'sounds/test/kilebi.wav', word4: 'sounds/test/dokibi.wav', correct:0, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/modane.wav', word3: 'sounds/test/gukido.wav', word4: 'sounds/test/logule.wav', correct:1, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/mudane.wav', word3: 'sounds/test/lodogi.wav', word4: 'sounds/test/bigute.wav', correct:2, tptype:'one', length: 'triplet'},
-{word1: 'sounds/test/dado.wav', word2: 'sounds/test/nalo.wav', word3: 'sounds/test/tebi.wav', word4: 'sounds/test/dane.wav', correct:3, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/lodo.wav', word2: 'sounds/test/kiba.wav', word3: 'sounds/test/dotu.wav', word4: 'sounds/test/baku.wav', correct:0, tptype:'one', length: 'pair'},
-{word1: 'sounds/test/nemu.wav', word2: 'sounds/test/kile.wav', word3: 'sounds/test/tuki.wav', word4: 'sounds/test/gulo.wav', correct:1, tptype:'third', length: 'pair'},
-{word1: 'sounds/test/gida.wav', word2: 'sounds/test/kubi.wav', word3: 'sounds/test/bigu.wav', word4: 'sounds/test/tele.wav', correct:2, tptype:'third', length: 'pair'}
+{word1: 'sounds/test/temumo.wav', word2: 'sounds/test/lebabi.wav', word3: 'sounds/test/logule.wav', word4: 'sounds/test/kilegu.wav', correct:3, tptype:'third', length: 'triplet', trialnumber: 'twentythree'},
+{word1: 'sounds/test/gubile.wav', word2: 'sounds/test/mudane.wav', word3: 'sounds/test/dokibi.wav', word4: 'sounds/test/gukido.wav', correct:0, tptype:'third', length: 'triplet', trialnumber: 'twentyfour'},
+{word1: 'sounds/test/lebabi.wav', word2: 'sounds/test/biguki.wav', word3: 'sounds/test/gituku.wav', word4: 'sounds/test/leneba.wav', correct:1, tptype:'third', length: 'triplet', trialnumber: 'twentyfive'},
+{word1: 'sounds/test/gimona.wav', word2: 'sounds/test/kilebi.wav', word3: 'sounds/test/lekibi.wav', word4: 'sounds/test/temumo.wav', correct:2, tptype:'third', length: 'triplet', trialnumber: 'twentysix'},
+{word1: 'sounds/test/leneba.wav', word2: 'sounds/test/lonaku.wav', word3: 'sounds/test/gituku.wav', word4: 'sounds/test/munatu.wav', correct:3, tptype:'one', length: 'triplet', trialnumber: 'twentyseven'},
+{word1: 'sounds/test/bateku.wav', word2: 'sounds/test/bigute.wav', word3: 'sounds/test/kilebi.wav', word4: 'sounds/test/dokibi.wav', correct:0, tptype:'one', length: 'triplet', trialnumber: 'twentyeight'},
+{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/modane.wav', word3: 'sounds/test/gukido.wav', word4: 'sounds/test/logule.wav', correct:1, tptype:'one', length: 'triplet', trialnumber: 'twentynine'},
+{word1: 'sounds/test/tukigu.wav', word2: 'sounds/test/mudane.wav', word3: 'sounds/test/lodogi.wav', word4: 'sounds/test/bigute.wav', correct:2, tptype:'one', length: 'triplet', trialnumber: 'thirty'},
+{word1: 'sounds/test/dado.wav', word2: 'sounds/test/nalo.wav', word3: 'sounds/test/tebi.wav', word4: 'sounds/test/dane.wav', correct:3, tptype:'one', length: 'pair', trialnumber: 'thirtyone'},
+{word1: 'sounds/test/lodo.wav', word2: 'sounds/test/kiba.wav', word3: 'sounds/test/dotu.wav', word4: 'sounds/test/baku.wav', correct:0, tptype:'one', length: 'pair', trialnumber: 'thirtytwo'},
+{word1: 'sounds/test/nemu.wav', word2: 'sounds/test/kile.wav', word3: 'sounds/test/tuki.wav', word4: 'sounds/test/gulo.wav', correct:1, tptype:'third', length: 'pair', trialnumber: 'thirtythree'},
+{word1: 'sounds/test/gida.wav', word2: 'sounds/test/kubi.wav', word3: 'sounds/test/bigu.wav', word4: 'sounds/test/tele.wav', correct:2, tptype:'third', length: 'pair', trialnumber: 'thirtyfour'}
 ];
 
 
@@ -209,6 +209,7 @@ var TWOafc_choice = {
 		transitionalpr: function(){return twoAFC_array[twoafc_count].tptype;},
 		length: function(){return twoAFC_array[twoafc_count].length;},
 		correctanswer: function(){return twoAFC_array[twoafc_count].correct;},
+		trial: function(){return twoAFC_array[twoafc_count].trialnumber;}
 	//	transitionalpr: function(){return twoAFC_array[twoafc_count].tptype;} ////
 	},
 	on_finish: function(data) {
@@ -285,6 +286,7 @@ var FOURAFC_choice = {
 		word4: function(){return fourAFC_array[fourafc_count].word4;},
 		length: function(){return fourAFC_array[fourafc_count].length;},
 		transitionalpr: function(){return fourAFC_array[fourafc_count].tptype;},
+		trial: function(){return fourAFC_array[fourafc_count].trialnumber;},
 		correctanswer: function(){return fourAFC_array[fourafc_count].correct;}
 	},
 	on_finish: function(data) {
