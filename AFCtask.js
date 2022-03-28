@@ -88,7 +88,7 @@ var fourAFC_array1 = [
 {word1: 'sounds/test/baku.wav', word2: 'sounds/test/lodo.wav', word3: 'sounds/test/kiba.wav', word4: 'sounds/test/dotu.wav', correct:1, tptype:'one', length: 'pair', trialnumber: 'thirtytwo'},
 {word1: 'sounds/test/gulo.wav', word2: 'sounds/test/nemu.wav', word3: 'sounds/test/kile.wav', word4: 'sounds/test/tuki.wav', correct:2, tptype:'third', length: 'pair', trialnumber: 'thirtythree'},
 {word1: 'sounds/test/tele.wav', word2: 'sounds/test/gida.wav', word3: 'sounds/test/kubi.wav', word4: 'sounds/test/bigu.wav', correct:3, tptype:'third', length: 'pair', trialnumber: 'thirtyfour'}
-
+];
 
 
 var fourAFC_array2 = [
