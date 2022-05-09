@@ -57,7 +57,7 @@ var sl_instruct = {
 	stimulus: '<p>In this part of the study, you will hear a stream of sounds.</p>'+
 			  '<p>Please focus on these sounds, as you may be asked questions about them later.</p>'+
 			  '<p>Occasionally, the sounds will pause for up to four seconds. When this happens, please press SPACEBAR as quickly as you can.</br>This helps ensure that you are paying attention to the sounds.</p>'+
-			  '<p>This part of the study will take about 3 minutes to complete.</p>'+
+			  '<p>This part of the study will take about 6 minutes to complete, and you will be given the opportunity to take a short break partway through.</p>'+
 			  '<p><strong>Press SPACEBAR to begin</strong></p>',
 	choices: [' ']
 };
@@ -96,8 +96,8 @@ var sl_screen = {
 		var initialSetup = 1000; //relative delay before audio plays
 		var pauseTime01 = pauses[t+0]; //what is the pause time?
 		var pauseTime02 = pauses[t+1]; //what is the second pause time?
-		var resumeTime01 = pauseTime01+4000; //resume after 2000ms
-		var resumeTime02 = pauseTime02+4000; //resume after 2000ms
+		var resumeTime01 = pauseTime01+4000; //resume after 4000ms
+		var resumeTime02 = pauseTime02+4000; //resume after 4000ms
 
 		setTimeout(function(){
 			var audio = new Audio(SLSTREAM[idx]);
@@ -141,7 +141,7 @@ var sl_screen = {
 
 			return '<div><audio id="slsound" autoplay="false"></audio></div>';
 	},
-	trial_duration: 184000,
+	trial_duration: 183000,
 	choices: jsPsych.NO_KEYS,
 	on_finish: function(data){
 		var timeoutDATA = {
@@ -162,10 +162,18 @@ var sl_screen = {
 	}
 }
 
+var takebreak = {
+	type: 'html-button-response',
+	stimulus: '<p>You may take a short break if you wish.</p>',
+	choices: ['Continue']
+}
+
 //Define Training Procedure Timeline
 var sl_train_proc = {
-	timeline: [fixation, sl_screen]
+	timeline: [fixation, sl_screen, takebreak, fixation, sl_screen]
 };
+
+//	timeline: [fixation, sl_screen, takebreak, fixation, sl_screen, takebreak, fixation, sl_screen, takebreak, fixation, sl_screen, takebreak]
 
 ///////////////////////
 //FINAL TIMELINE VARS//
