@@ -57,7 +57,7 @@ var sl_instruct = {
 	stimulus: '<p>In this part of the study, you will hear a stream of sounds.</p>'+
 			  '<p>Please focus on these sounds, as you may be asked questions about them later.</p>'+
 			  '<p>Occasionally, the sounds will pause for up to four seconds. When this happens, please press SPACEBAR as quickly as you can.</br>This helps ensure that you are paying attention to the sounds.</p>'+
-			  '<p>This part of the study will take about 6 minutes to complete, and you will be given the opportunity to take a short break partway through.</p>'+
+			  '<p>This part of the study will take about 9 minutes to complete, and you will be given the opportunity to take two short breaks.</p>'+
 			  '<p><strong>Press SPACEBAR to begin</strong></p>',
 	choices: [' ']
 };
@@ -170,7 +170,7 @@ var takebreak = {
 
 //Define Training Procedure Timeline
 var sl_train_proc = {
-	timeline: [fixation, sl_screen, takebreak, fixation, sl_screen]
+	timeline: [fixation, sl_screen, takebreak, fixation, sl_screen, takebreak, fixation, sl_screen]
 };
 
 //	timeline: [fixation, sl_screen, takebreak, fixation, sl_screen, takebreak, fixation, sl_screen, takebreak, fixation, sl_screen, takebreak]

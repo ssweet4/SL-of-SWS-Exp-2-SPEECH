@@ -69,7 +69,7 @@
       command: "init"
     };
 
-    timeline.push(pavlovia_init);
+  timeline.push(pavlovia_init);
 
 
 
@@ -155,7 +155,7 @@
           type: 'instructions',
           pages: [
             'Welcome to the experiment. Click next to begin.',
-            '<p>In this part of the study, you will listen to speech syllables (for example, "ta") produced by a human talker.</p><p>Each syllable will be followed by a heavily distorted version of itself, which may be difficult to understand. These syllables are considered a <b>matched pair</b> because the second syllable is a distorted version of the first syllable.</p><p>Listen carefully to each pair, as later you will be asked to identify whether the syllables are part of the same pair or not.</p><p>You will hear 16 pairs in total, each presented 2 times.</p>',
+            '<p>In this part of the study, you will listen to speech syllables (for example, "ta") produced by a human talker.</p><p>Each syllable will be followed by a heavily distorted version of itself, which may be difficult to understand. These syllables are considered a <b>matched pair</b> because the second syllable is a distorted version of the first syllable.</p><p>Listen carefully to each pair, as later you will be asked to identify whether the syllables are part of the same pair or not.</p><p>You will hear 16 pairs in total, each presented 3 times.</p>',
             'When you are ready to begin, please advance the screen by pressing the next button.'
           ],
           show_clickable_nav: true
@@ -210,7 +210,7 @@
           timeline: [induction_play_nonspeech1, induction_play_nonspeech2, transition],
           timeline_variables: nonsp_timelinevars,
           randomize_order: true,
-          repetitions: 2
+          repetitions: 3
         };
 
         var nonspeech_procedure_final = {
@@ -220,7 +220,7 @@
 
 
 
-        timeline.push(nonspeech_procedure_final);
+       timeline.push(nonspeech_procedure_final);
 
 
         //Phase 2 of Induction (testing)//
@@ -959,7 +959,7 @@
 
     var aud_preload = [...CALIB_SOUNDS, ...COMPLETION_SOUNDS, ...AFC_SOUNDS, ...SYLLABLES, ...AFC_SOUNDS, ...sws_sentence_preload]; //this is the final variable for preloading
     var img_preload = [COMPLETION_IMAGES];
-//preload iamges here?
+//AFC_sounds preloaded twice?
     jsPsych.init({
       timeline: timeline,
       preload_audio: aud_preload,
