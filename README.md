@@ -1,3 +1,3 @@
-# Statistical Learning of Sinewave Speech New Induction
+# Statistical Learning of Sinewave Speech Experiment 2 Updated
 
-Similar project as Statistical Learning of Sinewave Speech. Primary difference is the induction of speech/nonspeech. Nonspeech hears reversed sinewave speech in the beginning to discourage interpreting sounds as speech.
+Similar project as Statistical Learning of Sinewave Speech Experiment 2. Primary difference is the lengthening of the induction task and the exposure task to try and boost learning.
