@@ -65,7 +65,7 @@ var COMPLETION_Intro = {
 			  '<p>Each sequence will be missing one sound. A beep will play in the place of this missing sound.</p>'+
 			  '<p>On each trial, you will listen to one of these sound sequences. You will then listen to 3 <u>TARGET SOUNDS</u>. Each <u>TARGET SOUND</u> will be labeled with a number (for example, 1) on the screen as they play. Your task is to pick which <u>TARGET SOUND</u> best completes the sound sequence.</p>'+
 			  '<p>To pick the <u>TARGET SOUND</u>, you will press the <b>button with the number that corresponds to that <u>TARGET SOUND</u>.</b></p>'+
-				'<p>There will be a total of 10 trials.</p>'+
+				'<p>There will be a total of 8 trials.</p>'+
 				'<p>When you are ready to begin, press CONTINUE.</p>',
 	choices: ['Continue'],
 	post_trial_gap: 250
